@@ -1,4 +1,4 @@
-package it.salestaxes.mockobj.baseelements;
+package it.salestaxes.baseelement.interfaces;
 
 public interface IElement {
 

@@ -1,9 +1,10 @@
 package it.salestaxes.mockobj.input;
 
+import it.salestaxes.baseelement.Element;
+import it.salestaxes.baseelement.abstracts.AbstractShoppingBasket;
 import it.salestaxes.consts.Consts;
-import it.salestaxes.mockobj.elements.Element;
 
-public class Input1 extends AbstractInput {
+public class ShoppingBasket1 extends AbstractShoppingBasket {
 
   protected void init() {
     Element book = new Element("BOOK", "book", Consts.BOOK, Double.parseDouble("12.49"), false);
